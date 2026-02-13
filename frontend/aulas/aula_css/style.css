@@ -1,26 +1,18 @@
 * {
-  margin: 0;
-  padding: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.block {
+body {
   padding: 20px;
-  display: block;
-  height: 200px;
-  background-color: blue;
-  border: 3px solid black;
 }
 
-.inline {
-  display: inline;
-  background-color: red;
-  border: 3px solid black;
+.imagem-flutuante {
+  float: right;
+  width: 20rem;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
-.block-inline {
-  display: inline-block;
-  background-color: yellow;
-  border: 3px solid black;
-  margin-top: 30px;
+.subtitulo {
+  clear: both;
 }
