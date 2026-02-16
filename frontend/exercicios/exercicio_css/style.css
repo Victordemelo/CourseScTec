@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu{
+    background-color: rgb(77, 77, 77);
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.topicos{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.conteudo {
+    background-color: rgb(160, 158, 158);
+    padding: 20px;
+    height: 80vh;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.rodape {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
