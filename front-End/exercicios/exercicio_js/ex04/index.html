@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .pedido {
+            padding: 10px;
+        }
+
+        .pedido button {
+            margin-top: 15px;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Pizzaria Bela vista</h1>
+    </header>
+    <main>
+        <ul class="listasPizzas">
+            <p>Lista de pizzas no menu</p>
+            <li>1 - Pizza de Calabresa</li>
+            <li>2 - Pizza de de Quatro Queijos</li>
+            <li>3 - Pizza de Frango com Catupiry</li>
+            <li>4 - Pizza de Brigadeiro</li>
+        </ul>
+    </main>
+
+    <section class="pedido">
+        <label for="numeroPizza">Digite o número do pedido da pizza: </label>
+        <input type="number" class="numeroPizza" id="numeroPizza"> <br>
+        <button onclick="pedirPizza()">Enviar</button>
+
+        <p id="resultado"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
